@@ -18,5 +18,4 @@ bin
 .settings
 .classpath
 .project
-settings.gradle
 .idea
