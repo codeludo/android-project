@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="consult geoNames" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-03-18T21:11:40" hostname="QV-4278" time="168.133">
+<testsuite name="consult geoNames" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-03-18T21:45:52" hostname="QV-4278" time="125.705">
   <properties/>
-  <testcase name="test different consults #1" classname="consult geoNames" time="26.179"/>
-  <testcase name="test different consults #2" classname="consult geoNames" time="21.217"/>
-  <testcase name="test different consults #3" classname="consult geoNames" time="23.783"/>
-  <testcase name="test different consults #4" classname="consult geoNames" time="22.184"/>
-  <testcase name="test different consults #5" classname="consult geoNames" time="21.209"/>
-  <testcase name="test different consults #6" classname="consult geoNames" time="27.947"/>
-  <testcase name="test different consults #7" classname="consult geoNames" time="25.614"/>
+  <testcase name="test different consults #1" classname="consult geoNames" time="20.044"/>
+  <testcase name="test different consults #2" classname="consult geoNames" time="17.234"/>
+  <testcase name="test different consults #3" classname="consult geoNames" time="16.754"/>
+  <testcase name="test different consults #4" classname="consult geoNames" time="17.857"/>
+  <testcase name="test different consults #5" classname="consult geoNames" time="17.249"/>
+  <testcase name="test different consults #6" classname="consult geoNames" time="17.958"/>
+  <testcase name="test different consults #7" classname="consult geoNames" time="18.609"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
@@ -26,7 +26,7 @@ test different consults(consult-geonames;test-different-consults)
 
 test different consults
 ----------------------------------------------------------------------
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
@@ -35,10 +35,10 @@ test different consults
 
 test different consults
 ----------------------------------------------------------------------
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
-[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/EJERCICIOS/automatizacion/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/PROJECTOS/projectos-android/cosumeapi-test/src/test/resources/features/consult.feature
 ]]></system-err>
 </testsuite>
