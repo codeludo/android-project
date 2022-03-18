@@ -1,0 +1,201 @@
+D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:9: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdkVersion 30
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:14: Warning: Attribute usesCleartextTraffic is only used in API level 23 and higher (current min is 21) [UnusedAttribute]
+        android:usesCleartextTraffic="true">
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:33: Warning: A newer version of junit:junit than 4.12 is available: 4.13.2 [GradleDependency]
+    testImplementation 'junit:junit:4.12'
+                       ~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:16: Warning: As of Android 12, android:exported must be set; use true to make the activity available to other apps, and false otherwise. For launcher activities, this should be set to true. [IntentFilterExportedReceiver]
+        <activity android:name="com.co.consumeapi.MainActivity">
+         ~~~~~~~~
+
+   Explanation for issues of type "IntentFilterExportedReceiver":
+   Apps targeting Android 12 and higher are required to specify an explicit
+   value for android:exported when the corresponding component has an intent
+   filter defined. Otherwise, installation will fail. Set it to true to make
+   this activity accessible to other apps, and false to limit it to be used
+   only by this app or the OS. For launch activities, this should be set to
+   true; otherwise, the app will fail to launch.
+
+   Previously, android:exported for components without any intent filters
+   present used to default to false, and when intent filters were present, the
+   default was true. Defaults which change value based on other values are
+   confusing and lead to apps accidentally exporting components as a
+   side-effect of adding intent filters. This is a security risk, and we have
+   made this change to avoid introducing accidental vulnerabilities.
+
+   While the default without intent filters remains unchanged, it is now
+   required to explicitly specify a value when intent filters are present. Any
+   app failing to meet this requirement will fail to install on any Android
+   version after Android 11.
+
+   We recommend setting android:exported to false (even on previous versions
+   of Android prior to this requirement) unless you have a good reason to
+   export a particular component.
+
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:2: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
+    <string name="app_name">Consumir WS CDP</string>
+            ~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.enviar appears to be unused [UnusedResources]
+    <string name="enviar">Enviar</string>
+            ~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.body appears to be unused [UnusedResources]
+    <string name="body">Body</string>
+            ~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.userid appears to be unused [UnusedResources]
+    <string name="userid">UserId</string>
+            ~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.title appears to be unused [UnusedResources]
+    <string name="title">Title</string>
+            ~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:18: Warning: Hardcoded string "Longitude", should use @string resource [HardcodedText]
+        android:hint="Longitude"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:31: Warning: Hardcoded string "send", should use @string resource [HardcodedText]
+        android:text="send"
+        ~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:44: Warning: Hardcoded string "Latitude", should use @string resource [HardcodedText]
+        android:hint="Latitude"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:59: Warning: Hardcoded string "sunrise", should use @string resource [HardcodedText]
+        android:hint="sunrise"
+        ~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:71: Warning: Hardcoded string "longitud", should use @string resource [HardcodedText]
+        android:hint="longitud"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:82: Warning: Hardcoded string "Lng", should use @string resource [HardcodedText]
+        android:text="Lng"
+        ~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:94: Warning: Hardcoded string "country code", should use @string resource [HardcodedText]
+        android:hint="country code"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:106: Warning: Hardcoded string "gmtOffset", should use @string resource [HardcodedText]
+        android:hint="gmtOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:118: Warning: Hardcoded string "rawOffset", should use @string resource [HardcodedText]
+        android:hint="rawOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:130: Warning: Hardcoded string "sunset", should use @string resource [HardcodedText]
+        android:hint="sunset"
+        ~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:142: Warning: Hardcoded string "timezoneId", should use @string resource [HardcodedText]
+        android:hint="timezoneId"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:154: Warning: Hardcoded string "dstOffset", should use @string resource [HardcodedText]
+        android:hint="dstOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:166: Warning: Hardcoded string "countryName", should use @string resource [HardcodedText]
+        android:hint="countryName"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:178: Warning: Hardcoded string "time", should use @string resource [HardcodedText]
+        android:hint="time"
+        ~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:191: Warning: Hardcoded string "latResponse", should use @string resource [HardcodedText]
+        android:hint="latResponse"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:203: Warning: Hardcoded string "Lat", should use @string resource [HardcodedText]
+        android:text="Lat"
+        ~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:214: Warning: Hardcoded string "Sunrise", should use @string resource [HardcodedText]
+        android:text="Sunrise"
+        ~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:225: Warning: Hardcoded string "RawOffset", should use @string resource [HardcodedText]
+        android:text="RawOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:235: Warning: Hardcoded string "Country code", should use @string resource [HardcodedText]
+        android:text="Country code"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:245: Warning: Hardcoded string "TimeZone Id", should use @string resource [HardcodedText]
+        android:text="TimeZone Id"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:256: Warning: Hardcoded string "GmtOffset", should use @string resource [HardcodedText]
+        android:text="GmtOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:266: Warning: Hardcoded string "Sunset", should use @string resource [HardcodedText]
+        android:text="Sunset"
+        ~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:277: Warning: Hardcoded string "DstOffset", should use @string resource [HardcodedText]
+        android:text="DstOffset"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:290: Warning: Hardcoded string "CountryName", should use @string resource [HardcodedText]
+        android:text="CountryName"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:301: Warning: Hardcoded string "Time", should use @string resource [HardcodedText]
+        android:text="Time"
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 34 warnings

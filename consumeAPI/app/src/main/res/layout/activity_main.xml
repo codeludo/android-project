@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-10dp"
+    tools:layout_editor_absoluteY="185dp">
+
+    <EditText
+        android:id="@+id/lng"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="Longitude"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lat"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="send"
+        app:layout_constraintBottom_toTopOf="@+id/sunrise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lng" />
+
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:autofillHints=""
+        android:hint="Latitude"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/lng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sunrise"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="2dp"
+        android:autofillHints=""
+        android:hint="sunrise"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/lngResponse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSend"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/lngResponse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="longitud"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/countryCode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sunrise"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/lngLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lng"
+        app:layout_constraintBottom_toBottomOf="@+id/lngResponse"
+        app:layout_constraintEnd_toStartOf="@+id/lngResponse"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lngResponse" />
+
+    <EditText
+        android:id="@+id/countryCode"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="country code"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/gmtOffset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lngResponse" />
+
+    <EditText
+        android:id="@+id/gmtOffset"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="gmtOffset"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/rawOffset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryCode" />
+
+    <EditText
+        android:id="@+id/rawOffset"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="rawOffset"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/sunset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gmtOffset"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/sunset"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="sunset"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/timezoneId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rawOffset" />
+
+    <EditText
+        android:id="@+id/timezoneId"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="timezoneId"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/dstOffset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sunset"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/dstOffset"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="dstOffset"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/countryName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timezoneId"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/countryName"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="countryName"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dstOffset"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="time"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/latResponse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countryName"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/latResponse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:autofillHints=""
+        android:hint="latResponse"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/latLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="108dp"
+        android:text="Lat"
+        app:layout_constraintBottom_toBottomOf="@+id/latResponse"
+        app:layout_constraintEnd_toStartOf="@+id/latResponse"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/latResponse" />
+
+    <TextView
+        android:id="@+id/sunriseLbl"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:text="Sunrise"
+        app:layout_constraintBottom_toBottomOf="@+id/sunrise"
+        app:layout_constraintEnd_toStartOf="@+id/sunrise"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sunrise" />
+
+    <TextView
+        android:id="@+id/rawOffsetLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RawOffset"
+        app:layout_constraintBottom_toBottomOf="@+id/rawOffset"
+        app:layout_constraintEnd_toStartOf="@+id/rawOffset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rawOffset" />
+
+    <TextView
+        android:id="@+id/countryCodeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Country code"
+        app:layout_constraintBottom_toBottomOf="@+id/countryCode"
+        app:layout_constraintEnd_toStartOf="@+id/countryCode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/countryCode" />
+
+    <TextView
+        android:id="@+id/timezoneIdLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TimeZone Id"
+        app:layout_constraintBottom_toBottomOf="@+id/timezoneId"
+        app:layout_constraintEnd_toStartOf="@+id/timezoneId"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/timezoneId" />
+
+    <TextView
+        android:id="@+id/gmtOffsetLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GmtOffset"
+        app:layout_constraintBottom_toBottomOf="@+id/gmtOffset"
+        app:layout_constraintEnd_toStartOf="@+id/gmtOffset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gmtOffset" />
+
+    <TextView
+        android:id="@+id/sunsetLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset"
+        app:layout_constraintBottom_toBottomOf="@+id/sunset"
+        app:layout_constraintEnd_toStartOf="@+id/sunset"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sunset" />
+
+    <TextView
+        android:id="@+id/dstOffsetLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DstOffset"
+        app:layout_constraintBottom_toBottomOf="@+id/dstOffset"
+        app:layout_constraintEnd_toStartOf="@+id/dstOffset"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dstOffset" />
+
+    <TextView
+        android:id="@+id/countryNameLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="55dp"
+        android:text="CountryName"
+        app:layout_constraintBottom_toBottomOf="@+id/countryName"
+        app:layout_constraintEnd_toStartOf="@+id/countryName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/countryName" />
+
+    <TextView
+        android:id="@+id/timeLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        app:layout_constraintBottom_toBottomOf="@+id/time"
+        app:layout_constraintEnd_toStartOf="@+id/time"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/time" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

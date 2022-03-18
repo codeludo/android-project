@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.1" type="conditional_incidents">
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="23"/>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="14"
+            column="9"
+            startOffset="489"
+            endLine="14"
+            endColumn="44"
+            endOffset="524"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="21"/>
+            <entry
+                name="requiresApi"
+                int="23"/>
+            <entry
+                name="message"
+                string="Attribute `usesCleartextTraffic` is only used in API level 23 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="IntentFilterExportedReceiver"
+        severity="warning"
+        message="As of Android 12, `android:exported` must be set; use `true` to make the activity \&#xA;available to other apps, and `false` otherwise. For launcher activities, this should be set to `true`.">
+        <fix-attribute
+            description="Set exported=&quot;true&quot;"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="exported"
+            value="true"/>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="16"
+            column="10"
+            startOffset="538"
+            endLine="16"
+            endColumn="18"
+            endOffset="546"/>
+    </incident>
+
+</incidents>

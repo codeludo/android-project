@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.1" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.string.app_name"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="2"
+            column="13"
+            startOffset="25"
+            endLine="2"
+            endColumn="28"
+            endOffset="40"/>
+        <location id="R.string.body"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="122"
+            endLine="4"
+            endColumn="24"
+            endOffset="133"/>
+        <location id="R.string.title"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="204"
+            endLine="6"
+            endColumn="25"
+            endOffset="216"/>
+        <location id="R.string.userid"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="161"
+            endLine="5"
+            endColumn="26"
+            endOffset="174"/>
+        <entry
+            name="model"
+            string="color[colorPrimary(U),colorPrimaryDark(U),colorAccent(U)],drawable[ic_launcher_foreground(U),ic_launcher_background(U),ic_launcher_foreground_1(R)],id[gmtOffsetLbl(D),sunrise(U),countryCodeLbl(D),timeLbl(D),btnSend(U),latLbl(D),countryCode(U),gmtOffset(U),sunsetLbl(D),lngLbl(D),sunriseLbl(D),lat(U),rawOffsetLbl(D),countryNameLbl(D),lngResponse(U),dstOffsetLbl(D),latResponse(U),lng(U),dstOffset(U),timezoneIdLbl(D),rawOffset(U),sunset(U),timezoneId(U),countryName(U),time(U)],layout[activity_main(U)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[body(D),title(D),userid(D),app_name(D),enviar(D)],style[Theme_AppCompat_Light_DarkActionBar(R),AppTheme(U)];3^5,1f^11^7^17^14^a^c^d^1a^1b^1c^18^1d^1e^16,20^4^3,21^4^3,28^27^0^1^2;;;"/>
+        <location id="R.string.enviar"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="79"
+            endLine="3"
+            endColumn="26"
+            endOffset="92"/>
+    </map>
+
+</incidents>
