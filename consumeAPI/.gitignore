@@ -14,8 +14,8 @@
 
 
 
-bin
-.settings
-.classpath
-.project
-.idea
+#bin
+#.settings
+#\classpath
+#.project
+#.idea
