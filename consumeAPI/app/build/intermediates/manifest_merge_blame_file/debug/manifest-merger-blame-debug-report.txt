@@ -6,69 +6,69 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml
+8-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml
+9-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:7:5-23:19
+13-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:7:5-23:19
 14        android:allowBackup="true"
-14-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:8:9-35
+14-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.7.0] C:\Users\USUARIO\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:9:9-43
+17-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="CosumeAPI"
-18-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:10:9-34
+18-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:10:9-34
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:11:9-54
+19-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:12:9-35
+20-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme"
-22-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:13:9-40
+22-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:13:9-40
 23        android:usesCleartextTraffic="true" >
-23-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:14:9-44
+23-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:14:9-44
 24        <activity android:name="com.co.consumeapi.MainActivity" >
-24-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:16:9-22:20
-24-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:16:19-64
+24-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:16:9-22:20
+24-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:16:19-64
 25            <intent-filter>
-25-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:17:13-21:29
+25-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:17:13-21:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:18:17-69
-26-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:18:25-66
+26-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:18:17-69
+26-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:18:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:20:17-77
-28-->D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:20:27-74
+28-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:20:17-77
+28-->D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:20:27-74
 29            </intent-filter>
 30        </activity>
 31
 32        <provider
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 33            android:name="androidx.startup.InitializationProvider"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 34            android:authorities="com.co.consumeapi.androidx-startup"
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 35            android:exported="false" >
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 36            <meta-data
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 38                android:value="androidx.startup" />
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USUARIO\.gradle\caches\transforms-3\a041a9a952b29f6964d85f5771c8e429\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 39            <meta-data
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 41                android:value="androidx.startup" />
-41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\gradle\gradle-7.3.3\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USUARIO\.gradle\caches\transforms-3\2d2b81fd1f5d13f7e9fe71a47a19c028\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 42        </provider>
 43    </application>
 44

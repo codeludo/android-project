@@ -14,7 +14,7 @@
         errorLine1="        targetSdkVersion 30"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\build.gradle"
             line="9"
             column="9"/>
     </issue>
@@ -30,7 +30,7 @@
         errorLine1="        android:usesCleartextTraffic=&quot;true&quot;>"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml"
             line="14"
             column="9"/>
     </issue>
@@ -46,7 +46,7 @@
         errorLine1="    testImplementation &apos;junit:junit:4.12&apos;"
         errorLine2="                       ~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\build.gradle"
             line="33"
             column="24"/>
     </issue>
@@ -62,7 +62,7 @@
         errorLine1="        &lt;activity android:name=&quot;com.co.consumeapi.MainActivity&quot;>"
         errorLine2="         ~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml"
             line="16"
             column="10"/>
     </issue>
@@ -78,7 +78,7 @@
         errorLine1="    &lt;string name=&quot;app_name&quot;>Consumir WS CDP&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml"
             line="2"
             column="13"/>
     </issue>
@@ -94,7 +94,7 @@
         errorLine1="    &lt;string name=&quot;enviar&quot;>Enviar&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -110,7 +110,7 @@
         errorLine1="    &lt;string name=&quot;body&quot;>Body&lt;/string>"
         errorLine2="            ~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml"
             line="4"
             column="13"/>
     </issue>
@@ -126,7 +126,7 @@
         errorLine1="    &lt;string name=&quot;userid&quot;>UserId&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml"
             line="5"
             column="13"/>
     </issue>
@@ -142,7 +142,7 @@
         errorLine1="    &lt;string name=&quot;title&quot;>Title&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml"
             line="6"
             column="13"/>
     </issue>
@@ -158,7 +158,7 @@
         errorLine1="        android:hint=&quot;Longitude&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="18"
             column="9"/>
     </issue>
@@ -174,7 +174,7 @@
         errorLine1="        android:text=&quot;send&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="31"
             column="9"/>
     </issue>
@@ -190,7 +190,7 @@
         errorLine1="        android:hint=&quot;Latitude&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="44"
             column="9"/>
     </issue>
@@ -206,7 +206,7 @@
         errorLine1="        android:hint=&quot;sunrise&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="59"
             column="9"/>
     </issue>
@@ -222,7 +222,7 @@
         errorLine1="        android:hint=&quot;longitud&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="71"
             column="9"/>
     </issue>
@@ -238,7 +238,7 @@
         errorLine1="        android:text=&quot;Lng&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="82"
             column="9"/>
     </issue>
@@ -254,7 +254,7 @@
         errorLine1="        android:hint=&quot;country code&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="94"
             column="9"/>
     </issue>
@@ -270,7 +270,7 @@
         errorLine1="        android:hint=&quot;gmtOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="106"
             column="9"/>
     </issue>
@@ -286,7 +286,7 @@
         errorLine1="        android:hint=&quot;rawOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="118"
             column="9"/>
     </issue>
@@ -302,7 +302,7 @@
         errorLine1="        android:hint=&quot;sunset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="130"
             column="9"/>
     </issue>
@@ -318,7 +318,7 @@
         errorLine1="        android:hint=&quot;timezoneId&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="142"
             column="9"/>
     </issue>
@@ -334,7 +334,7 @@
         errorLine1="        android:hint=&quot;dstOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="154"
             column="9"/>
     </issue>
@@ -350,7 +350,7 @@
         errorLine1="        android:hint=&quot;countryName&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="166"
             column="9"/>
     </issue>
@@ -366,7 +366,7 @@
         errorLine1="        android:hint=&quot;time&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="178"
             column="9"/>
     </issue>
@@ -382,7 +382,7 @@
         errorLine1="        android:hint=&quot;latResponse&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="191"
             column="9"/>
     </issue>
@@ -398,7 +398,7 @@
         errorLine1="        android:text=&quot;Lat&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="203"
             column="9"/>
     </issue>
@@ -414,7 +414,7 @@
         errorLine1="        android:text=&quot;Sunrise&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="214"
             column="9"/>
     </issue>
@@ -430,7 +430,7 @@
         errorLine1="        android:text=&quot;RawOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="225"
             column="9"/>
     </issue>
@@ -446,7 +446,7 @@
         errorLine1="        android:text=&quot;Country code&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="235"
             column="9"/>
     </issue>
@@ -462,7 +462,7 @@
         errorLine1="        android:text=&quot;TimeZone Id&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="245"
             column="9"/>
     </issue>
@@ -478,7 +478,7 @@
         errorLine1="        android:text=&quot;GmtOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="256"
             column="9"/>
     </issue>
@@ -494,7 +494,7 @@
         errorLine1="        android:text=&quot;Sunset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="266"
             column="9"/>
     </issue>
@@ -510,7 +510,7 @@
         errorLine1="        android:text=&quot;DstOffset&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="277"
             column="9"/>
     </issue>
@@ -526,7 +526,7 @@
         errorLine1="        android:text=&quot;CountryName&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="290"
             column="9"/>
     </issue>
@@ -542,7 +542,7 @@
         errorLine1="        android:text=&quot;Time&quot;"
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
-            file="D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml"
+            file="D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml"
             line="301"
             column="9"/>
     </issue>

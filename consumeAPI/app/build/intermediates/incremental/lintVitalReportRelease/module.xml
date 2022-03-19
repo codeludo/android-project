@@ -1,9 +1,9 @@
 <lint-module
     format="1"
-    dir="D:\EJERCICIOS\androidDev\consumeAPI\app"
+    dir="D:\PROJECTOS\projectos-android\consumeAPI\app"
     name=":app"
     type="APP"
-    maven="consumirapi:app:"
+    maven="consumeAPI:app:"
     gradle="7.1.1"
     buildFolder="build"
     bootClassPath="C:\Users\USUARIO\AppData\Local\Android\Sdk\platforms\android-32\android.jar;C:\Users\USUARIO\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"

@@ -1,4 +1,4 @@
-D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:9: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+D:\PROJECTOS\projectos-android\consumeAPI\app\build.gradle:9: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
         targetSdkVersion 30
         ~~~~~~~~~~~~~~~~~~~
 
@@ -20,7 +20,7 @@ D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:9: Warning: Not targeting t
 
    https://developer.android.com/distribute/best-practices/develop/target-sdk.html
 
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:14: Warning: Attribute usesCleartextTraffic is only used in API level 23 and higher (current min is 21) [UnusedAttribute]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:14: Warning: Attribute usesCleartextTraffic is only used in API level 23 and higher (current min is 21) [UnusedAttribute]
         android:usesCleartextTraffic="true">
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -41,7 +41,7 @@ D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:14: Warning
    can be unused too, such as the new <tag> element in layouts introduced in
    API 21.
 
-D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:33: Warning: A newer version of junit:junit than 4.12 is available: 4.13.2 [GradleDependency]
+D:\PROJECTOS\projectos-android\consumeAPI\app\build.gradle:33: Warning: A newer version of junit:junit than 4.12 is available: 4.13.2 [GradleDependency]
     testImplementation 'junit:junit:4.12'
                        ~~~~~~~~~~~~~~~~~~
 
@@ -52,7 +52,7 @@ D:\EJERCICIOS\androidDev\consumeAPI\app\build.gradle:33: Warning: A newer versio
    However, you may simply not be aware that a more recent version is
    available, and that is what this lint check helps find.
 
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:16: Warning: As of Android 12, android:exported must be set; use true to make the activity available to other apps, and false otherwise. For launcher activities, this should be set to true. [IntentFilterExportedReceiver]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\AndroidManifest.xml:16: Warning: As of Android 12, android:exported must be set; use true to make the activity available to other apps, and false otherwise. For launcher activities, this should be set to true. [IntentFilterExportedReceiver]
         <activity android:name="com.co.consumeapi.MainActivity">
          ~~~~~~~~
 
@@ -80,19 +80,19 @@ D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\AndroidManifest.xml:16: Warning
    of Android prior to this requirement) unless you have a good reason to
    export a particular component.
 
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:2: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml:2: Warning: The resource R.string.app_name appears to be unused [UnusedResources]
     <string name="app_name">Consumir WS CDP</string>
             ~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.enviar appears to be unused [UnusedResources]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.enviar appears to be unused [UnusedResources]
     <string name="enviar">Enviar</string>
             ~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.body appears to be unused [UnusedResources]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.body appears to be unused [UnusedResources]
     <string name="body">Body</string>
             ~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.userid appears to be unused [UnusedResources]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.userid appears to be unused [UnusedResources]
     <string name="userid">UserId</string>
             ~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.title appears to be unused [UnusedResources]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.title appears to be unused [UnusedResources]
     <string name="title">Title</string>
             ~~~~~~~~~~~~
 
@@ -108,79 +108,79 @@ D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\values\strings.xml:6: Warni
    them (usually for performance reasons), use
    lint.unused-resources.exclude-tests=true.
 
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:18: Warning: Hardcoded string "Longitude", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:18: Warning: Hardcoded string "Longitude", should use @string resource [HardcodedText]
         android:hint="Longitude"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:31: Warning: Hardcoded string "send", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:31: Warning: Hardcoded string "send", should use @string resource [HardcodedText]
         android:text="send"
         ~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:44: Warning: Hardcoded string "Latitude", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:44: Warning: Hardcoded string "Latitude", should use @string resource [HardcodedText]
         android:hint="Latitude"
         ~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:59: Warning: Hardcoded string "sunrise", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:59: Warning: Hardcoded string "sunrise", should use @string resource [HardcodedText]
         android:hint="sunrise"
         ~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:71: Warning: Hardcoded string "longitud", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:71: Warning: Hardcoded string "longitud", should use @string resource [HardcodedText]
         android:hint="longitud"
         ~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:82: Warning: Hardcoded string "Lng", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:82: Warning: Hardcoded string "Lng", should use @string resource [HardcodedText]
         android:text="Lng"
         ~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:94: Warning: Hardcoded string "country code", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:94: Warning: Hardcoded string "country code", should use @string resource [HardcodedText]
         android:hint="country code"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:106: Warning: Hardcoded string "gmtOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:106: Warning: Hardcoded string "gmtOffset", should use @string resource [HardcodedText]
         android:hint="gmtOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:118: Warning: Hardcoded string "rawOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:118: Warning: Hardcoded string "rawOffset", should use @string resource [HardcodedText]
         android:hint="rawOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:130: Warning: Hardcoded string "sunset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:130: Warning: Hardcoded string "sunset", should use @string resource [HardcodedText]
         android:hint="sunset"
         ~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:142: Warning: Hardcoded string "timezoneId", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:142: Warning: Hardcoded string "timezoneId", should use @string resource [HardcodedText]
         android:hint="timezoneId"
         ~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:154: Warning: Hardcoded string "dstOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:154: Warning: Hardcoded string "dstOffset", should use @string resource [HardcodedText]
         android:hint="dstOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:166: Warning: Hardcoded string "countryName", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:166: Warning: Hardcoded string "countryName", should use @string resource [HardcodedText]
         android:hint="countryName"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:178: Warning: Hardcoded string "time", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:178: Warning: Hardcoded string "time", should use @string resource [HardcodedText]
         android:hint="time"
         ~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:191: Warning: Hardcoded string "latResponse", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:191: Warning: Hardcoded string "latResponse", should use @string resource [HardcodedText]
         android:hint="latResponse"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:203: Warning: Hardcoded string "Lat", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:203: Warning: Hardcoded string "Lat", should use @string resource [HardcodedText]
         android:text="Lat"
         ~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:214: Warning: Hardcoded string "Sunrise", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:214: Warning: Hardcoded string "Sunrise", should use @string resource [HardcodedText]
         android:text="Sunrise"
         ~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:225: Warning: Hardcoded string "RawOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:225: Warning: Hardcoded string "RawOffset", should use @string resource [HardcodedText]
         android:text="RawOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:235: Warning: Hardcoded string "Country code", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:235: Warning: Hardcoded string "Country code", should use @string resource [HardcodedText]
         android:text="Country code"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:245: Warning: Hardcoded string "TimeZone Id", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:245: Warning: Hardcoded string "TimeZone Id", should use @string resource [HardcodedText]
         android:text="TimeZone Id"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:256: Warning: Hardcoded string "GmtOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:256: Warning: Hardcoded string "GmtOffset", should use @string resource [HardcodedText]
         android:text="GmtOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:266: Warning: Hardcoded string "Sunset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:266: Warning: Hardcoded string "Sunset", should use @string resource [HardcodedText]
         android:text="Sunset"
         ~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:277: Warning: Hardcoded string "DstOffset", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:277: Warning: Hardcoded string "DstOffset", should use @string resource [HardcodedText]
         android:text="DstOffset"
         ~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:290: Warning: Hardcoded string "CountryName", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:290: Warning: Hardcoded string "CountryName", should use @string resource [HardcodedText]
         android:text="CountryName"
         ~~~~~~~~~~~~~~~~~~~~~~~~~~
-D:\EJERCICIOS\androidDev\consumeAPI\app\src\main\res\layout\activity_main.xml:301: Warning: Hardcoded string "Time", should use @string resource [HardcodedText]
+D:\PROJECTOS\projectos-android\consumeAPI\app\src\main\res\layout\activity_main.xml:301: Warning: Hardcoded string "Time", should use @string resource [HardcodedText]
         android:text="Time"
         ~~~~~~~~~~~~~~~~~~~
 
